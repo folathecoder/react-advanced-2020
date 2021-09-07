@@ -1,4 +1,4 @@
-/*
+/* 
 =============== 
 Variables
 ===============
@@ -215,7 +215,7 @@ p {
 }
 .form {
   /* background: var(--clr-white); */
-  background-color: red;
+  background-color: rgb(139, 138, 138);
   max-width: var(--fixed-width);
   margin: 0 auto;
   margin-bottom: 4rem;
@@ -360,4 +360,12 @@ p {
   place-items: center;
   font-size: 30px;
   font-weight: bold;
+}
+
+.btn_delete {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
 }
